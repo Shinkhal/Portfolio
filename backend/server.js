@@ -13,7 +13,7 @@ const port = process.env.PORT || 4000;
 app.use(bodyParser.json());
 
 app.use(cors({
-    origin: "https://portfolio-two-rouge-73.vercel.app", 
+    origin: "https://shinkhal-sinha.vercel.app", 
     credentials: true
 }));
 
